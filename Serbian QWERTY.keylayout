@@ -2,7 +2,7 @@
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 1.8b6 on 2008-05-11 at 21:32 (CEST)-->
 <!--Last edited by Ukelele version 359 on 2023-02-02 at 18:08 (CET)-->
-<keyboard group="126" id="-2734" name="Serbian QWERTZ" maxout="2">
+<keyboard group="126" id="-19522" name="Serbian QWERTY" maxout="2">
     <layouts>
         <layout first="0" last="1" mapSet="ANSI" modifiers="commonModifiers"/>
         <layout first="2" last="2" mapSet="mSet_2" modifiers="commonModifiers"/>
@@ -763,6 +763,7 @@
             <key code="8" output="ç"/>
             <key code="9" output="√"/>
             <!-- gap, 10 -->
+            <key code="10" output=""/>
             <key code="11" output="∫"/>
             <key code="12" output="œ"/>
             <key code="13" output="∑"/>
@@ -1219,12 +1220,12 @@
             <when state="State 9" output="Ú"/>
         </action>
         <action id="Y">
-            <when state="none" output="Y"/>
+            <when state="none" output="Z"/>
             <when state="State 11" output="Ÿ"/>
             <when state="State 9" output="Ý"/>
         </action>
         <action id="Z">
-            <when state="none" output="Z"/>
+            <when state="none" output="Y"/>
             <when state="State 8" output="Ż"/>
             <when state="State 9" output="Ź"/>
         </action>
@@ -1374,12 +1375,12 @@
             <when state="State 9" output="ú"/>
         </action>
         <action id="y">
-            <when state="none" output="y"/>
+            <when state="none" output="z"/>
             <when state="State 11" output="ÿ"/>
             <when state="State 9" output="ý"/>
         </action>
         <action id="z">
-            <when state="none" output="z"/>
+            <when state="none" output="y"/>
             <when state="State 8" output="ż"/>
             <when state="State 9" output="ź"/>
         </action>
